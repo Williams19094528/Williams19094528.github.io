@@ -4,13 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css/" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+
+      .cabezera {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+
+      section {
+        text-align: center;
+        margin: 20px auto;
+        min-height: 80vh;
+      }
+
+      .galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .imagen {
+        width: 48%;
+        margin-bottom: 20px;
+      }
+
+      .parrafo-p {
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      .pie {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 9px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Mis Proyectos</h1>
+    <header class="cabezera">
+      <h1>Mis Proyectos</h1>
+    </header>
     <section>
-      <h2>Desafio Final</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor?</p>
+      <h2>Desafío Final</h2>
+      <div class="galeria">
+        <p class="parrafo-p">
+          En el Desafío Final, utilicé diversas tecnologías como HTML, CSS,
+          Bootstrap, emoticones y fuentes para desarrollar tres proyectos
+          únicos. Cada proyecto demostró mi habilidad para crear interfaces
+          atractivas y funcionales, aplicando conceptos modernos de diseño y
+          desarrollo web.
+        </p>
+        <img
+          src="./assets/img/primer-desafio.png"
+          alt="Imagen 1"
+          class="imagen"
+        />
+        <img
+          src="./assets/img/segundo-desafio.png"
+          alt="Imagen 2"
+          class="imagen"
+        />
+        <img
+          src="./assets/img/tercer-desafio.png"
+          alt="Imagen 3"
+          class="imagen"
+        />
+      </div>
     </section>
+    <footer class="pie">
+      Github :
+      <a
+        href="https://github.com/Williams19094528/Williams19094528.github.io.git"
+        target="_blank"
+      >
+        Williams Camacaro
+      </a>
+    </footer>
   </body>
 </html>
