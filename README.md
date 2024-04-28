@@ -1,5 +1,13 @@
 
 
+
+El trabajo lo complete sin compartir con nigun compañero 
+
+configurado el giyhubs
+
+
+
+
 Repositorio:
 
 https://github.com/Williams19094528/Williams19094528.github.io.git
